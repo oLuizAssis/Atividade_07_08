@@ -17,7 +17,7 @@ foreach($dicionario as $key => $value){
             break;
         }
     }else{ //Se o IMC for maior ou igual a 40
-        echo PHP_EOL."$value";
+        echo "Seu peso é preocupante, procure um médico".PHP_EOL."$value";
     }
 }
 
